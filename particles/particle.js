@@ -56,7 +56,7 @@ function Particle(x, y, radius, color) {
   }
 }
 
-let paticles
+let particles
 
 function init() {
   particles = []

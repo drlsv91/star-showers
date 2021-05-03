@@ -107,7 +107,7 @@ let circles = []
 
 function init() {
   circles = []
-  for (let i = 0; i < 8f00; i++) {
+  for (let i = 0; i < 8; i++) {
     let radius = Math.random() * 3 + 1
     let dy = Math.random() - 0.5
     let dx = Math.random() - 0.5
