@@ -1,4 +1,6 @@
-import { randomInt } from '../utils.js'
+const randomInt = (min, max) => {
+  return Math.floor(Math.random() * (max - min) + min)
+}
 
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
